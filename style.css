@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Poppins:wght@500&display=swap');
+
+/*font-family: 'Merriweather', serif; --> black
+font-family: 'Poppins', sans-serif;  --> medium*/ 
+
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.jobcard{
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 251px;
+    border: 0;
+    border-radius: 16px;
+    margin: 48px 40px;
+}
+.jobheader{
+    font-family: 'Merriweather', serif;
+    color:#1E2246;
+    font-size: 16px;
+}
+
+.jobcardtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.jobcardtitle p{
+    font-size: 16px;
+    margin-left: 10px;
+    color:#1E2246;
+}
+.icon{
+    color: white;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    padding:16px;
+    text-align: center;
+    border:0;
+    border-radius: 14px;
+}
+.jobcard:nth-child(1) .icon{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.jobcard:nth-child(2) .icon{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.jobcard:nth-child(3) .icon{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.jobcard:nth-child(4) .icon{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.jobcard:nth-child(5) .icon{
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+.jobcard:nth-child(6) .icon{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.jobcarddesc{
+    border: 1px rgb(216, 216, 216) solid;
+    border-radius: 8px;
+    padding: 0 40px;
+    margin-top: 30px;
+    color:#1E2246;
+}
+.jobcard:nth-child(2) .jobcarddesc{
+    background-color:#1E2246 ;
+    color: #ffffff;
+    border: 0px;
+}
+.jobcarddesc p{
+    font-size: 13px;
+}
+.jobfooter{
+    width: 70%;
+    font-size: 12px;
+    color: #1E2246;
+    text-align: center;
+    margin-bottom: 50px;
+}
